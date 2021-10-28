@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Navigation">
         <activity
-            android:name=".MainActivity"
+            android:name=".Article"
+            android:exported="false" />
+        <activity
+            android:name=".Accueil"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
